@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Live Plotting</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <h1>Live Plotting Example</h1>
+
+    <!--  container for the plots -->
+    <div id="plots-container">
+       
+        <div id="graph1" style="width: 400px; height: 300px;"></div>
+       
+        <button onclick="pauseStreaming(0)">Pause Plot 1</button>
+        <button onclick="resetPlot(0)">Reset Plot 1</button>
+
+        
+        <div id="graph2" style="width: 400px; height: 300px;"></div>
+        <
+        <button onclick="pauseStreaming(1)">Pause Plot 2</button>
+        <button onclick="resetPlot(1)">Reset Plot 2</button>
+
+     
+        <div id="graph3" style="width: 400px; height: 300px;"></div>
+        
+        <button onclick="pauseStreaming(2)">Pause Plot 3</button>
+        <button onclick="resetPlot(2)">Reset Plot 3</button>
+
+        
+        <div id="graph4" style="width: 400px; height: 300px;"></div>
+       
+        <button onclick="pauseStreaming(3)">Pause Plot 4</button>
+        <button onclick="resetPlot(3)">Reset Plot 4</button>
+    </div>
+
+    <script src="plotly.js"></script>
+</body>
+
+</html>

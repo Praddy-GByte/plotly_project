@@ -1,0 +1,18 @@
+{
+  "name": "websocket_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plotly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "praddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "plotly": "^1.0.6",
+    "plotly.js": "^2.26.1",
+    "puppeteer": "^21.3.4"
+  }
+}
